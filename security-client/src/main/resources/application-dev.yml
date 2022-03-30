@@ -1,0 +1,40 @@
+loggin:
+  level:
+    com:
+      project: DEBUG
+# Propriedades do Banco de dados em ambiente de Desenv
+
+# Configurações do Spring JPA
+spring:
+  datasource:
+    drive-class-name: org.postgresql.Driver
+    jdbc-url: jdbc:postgresql://localhost:5432/spring-course
+    password: 1qa2ws3ed
+    username: postgres
+    pool-name: ManagerPool
+    min-pool-size: 1
+    max-pool-size: 3
+    max-lifetime: 1800000
+    validation-timeout: 250
+    allow-bean-definition-overriding: true
+  jpa:
+    database-plataform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        ddl-auto: create
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    ssl: no
+    tls: yes
+    username: ${MAIL_USERNAME:78302434ca5131}
+    password: ${MAIL_PASSWORD:27dd472444306f}
+    protocol: smtp
+
+
+server:
+  port: 8090
+
+  #-Dspring.profiles.active=dev
