@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/security-client/pom.xml" />
         <option value="$PROJECT_DIR$/../0auth-authorization-server/pom.xml" />
         <option value="$PROJECT_DIR$/0auth-authorization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../Oauth-resource-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Oauth-resource-server/pom.xml" />
       </list>
     </option>
   </component>
