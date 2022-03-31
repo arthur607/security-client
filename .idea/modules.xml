@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/0auth-authorization-server/0auth-authorization-server.iml" filepath="$PROJECT_DIR$/0auth-authorization-server/0auth-authorization-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/security.iml" filepath="$PROJECT_DIR$/.idea/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/../security-client/security-client.iml" filepath="$PROJECT_DIR$/../security-client/security-client.iml" />
     </modules>

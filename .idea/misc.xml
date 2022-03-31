@@ -7,12 +7,17 @@
       <item index="2" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.GetMapping" />
       <item index="3" class="java.lang.String" itemvalue="org.springframework.web.bind.annotation.PostMapping" />
     </list>
+    <writeAnnotations>
+      <writeAnnotation name="org.springframework.beans.factory.annotation.Autowired" />
+    </writeAnnotations>
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../security-client/pom.xml" />
         <option value="$PROJECT_DIR$/security-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../0auth-authorization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/0auth-authorization-server/pom.xml" />
       </list>
     </option>
   </component>
